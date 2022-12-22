@@ -1,0 +1,18 @@
+5. Which of the following functions gets invoked after the render() function on update of `state` or `props`?
+    R. componentDidUpdate()
+
+
+6. Which of the following statement(s) is true about ReactJS?
+
+    1. Only one root element can be returned per component. 
+        Explanation - React need a parent element to render, we can wrap multiple elements
+        in a fragment but at root level we always should return one element.
+    2. Both arguments of the useEffect hook are compulsory.
+        Explanation - the first argument is the "Effect function", the second one is the dependencies array
+        and is optional.
+    3. The useState hook returns an object.
+        Explanation - useState can handle/return any type of variable, either strings, booleans, objects, etc.
+    4. The useState hook cannot be used outside of a functional component.
+        Explanation - useSate and any other hook only can be called with in a functional component.
+
+    R. Options 1 and 4 are right
